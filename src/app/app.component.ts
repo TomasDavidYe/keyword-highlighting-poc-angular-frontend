@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'keyword-highlighting-angular-frontend';
+
+
+  public click(){
+    console.log('Clicked native angular function!');
+  }
+
 }
